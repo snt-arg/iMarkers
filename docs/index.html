@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="iMarkers">
+    <meta name="author" content="Ali Tourani; Deniz Deniz Isinsu Avsar; Hriday Bavle; Jose Luis Sanchez-Lopez; Holger Voos; Jan P.F. Lagerwall;">
+    <title>iMarkers</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/tab.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head> 
+
+<body id="home">
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://www.uni.lu/snt-en/research-groups/ARG/" target="_blank">
+                        <img src="images/logo.png" alt="logo" width="150px">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Home</a></li> 
+						<li class="scroll"><a href="#why">Why iMarkers?</a></li>
+                        <li class="scroll"><a href="#media">Media</a></li>
+                        <li class="scroll"><a href="#team">Team</a></li>
+                        <li class="scroll"><a href="#publication">Publications</a></li>
+                        <li class="scroll"><a href="#contact-us">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero-banner">
+        <div class="banner-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10">
+                        <h2>iMarkers: Invisible Fiducial Markers for Advanced Robotics</h2>
+                        <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-github fa-lg"></i> Code on GitHub (General Users)</a>
+                        <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-github fa-lg"></i> Code on GitHub (Robotics Users)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="download-now" id="why">
+        <div class="container">
+		    <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Contributions</h2>
+                <p class="wow fadeInDown">The main contributions of this approach can be classified into separate</p>
+            </div>
+            <!-- <div class="row">
+			    <div class="col-md-12">
+				    <div class="row">
+                        <div class="features">
+                            <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                                <div>
+                                    <i class="fa fa-wrench"></i>
+                                </div>
+                                <div class="media service-box">
+                                    <div class="media-body">
+                                        <h4 class="media-heading">A Visual SLAM Framework</h4>
+                                        <p>A multi-threaded real-time VSLAM, able to recognize, localize, and map building components for less pose and localization errors</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                                <div>
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+                                <div class="media service-box">   
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Rich Map Reconstruction</h4>
+                                        <p>A novel methodology for extracting structural elements (i.e., rooms and corridors) from detected building components (i.e., walls and grounds)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                                <div>
+                                    <i class="fa fa-area-chart"></i>
+                                </div>
+                                <div class="media service-box">
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Environment-Specific Element Validation</h4>
+                                        <p>An algorithm for verifying and enriching geometric objects with their corresponding semantic entities</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                                <div>
+                                    <i class="fa fa-trophy"></i>
+                                </div>
+                                <div class="media service-box">                            
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Real-world Experiments</h4>
+                                        <p>Conducting real-world experiments under various indoor conditions to assess the effectiveness of the proposed approach</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+			    </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- <section id="media">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Evaluations</h2>
+            </div>
+            <div style="padding: 20px;">
+                <h4>Reconstructed Maps enriched with Building Components:</h4>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 wow fadeInDown">
+                    <div class="slider">
+                        <a class="control_next">Nxt</a>
+                        <a class="control_prev">Prv</a>
+                        <ul>
+                            <li>
+                                <h5>ICL Dataset - Seq01</h5>
+                                <img src="./images/eval/eval-icl.png" style="width: 80%;"/>
+                            </li>
+                            <li>
+                                <h5>ICL Dataset- Seq02</h5>
+                                <img src="./images/eval/eval-icl.png" style="width: 80%;" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 wow fadeInDown" style="padding: 20px;">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openGif(event, 'as_seq08')" id="defaultOpenGif">AutoSense#1</button>
+                        <button class="tablinks" onclick="openGif(event, 'as_seq05')">AutoSense#2</button>
+                        <button class="tablinks" onclick="openGif(event, 'as_seq06')">AutoSense#3</button>
+                        <button class="tablinks" onclick="openGif(event, 'as_seq07')">AutoSense#4</button>
+                        <button class="tablinks" onclick="openGif(event, 'icl_deer_r')">ICL#1</button>
+                        <button class="tablinks" onclick="openGif(event, 'icl_deer_w')">ICL#2</button>
+                        <button class="tablinks" onclick="openGif(event, 'icl_deer_wh')">ICL#3</button>
+                        <button class="tablinks" onclick="openGif(event, 'icl_diam_gr')">ICL#4</button>
+                        <button class="tablinks" onclick="openGif(event, 'openloris_o12')">OpenLoris</button>
+                        <button class="tablinks" onclick="openGif(event, 'tum_frb1_room')">TUM-RGBD</button>                        
+                    </div>
+                    <div id="icl_deer_r" class="tabcontent">
+                        <h3>ICL Dataset - Sequence <i>deer_mav_fast</i></h3>
+                        <img src="./images/eval/scene_graph/icl_deer_r.gif" />
+                    </div>
+                    <div id="icl_deer_w" class="tabcontent">
+                        <h3>ICL Dataset - Sequence <i>deer_mav_fast</i></h3>
+                        <img src="./images/eval/scene_graph/icl_deer_w.gif" />
+                    </div>
+                    <div id="icl_deer_wh" class="tabcontent">
+                        <h3>ICL Dataset - Sequence <i>deer_mav_fast</i></h3>
+                        <img src="./images/eval/scene_graph/icl_deer_wh.gif" />
+                    </div>
+                    <div id="icl_diam_gr" class="tabcontent">
+                        <h3>ICL Dataset - Sequence <i>deer_mav_fast</i></h3>
+                        <img src="./images/eval/scene_graph/icl_diam_gr.gif" />
+                    </div>
+                    <div id="openloris_o12" class="tabcontent">
+                        <h3>OpenLoris Dataset - Sequence <i>office1-2</i></h3>
+                        <img src="./images/eval/scene_graph/openloris_o12.gif" />
+                    </div>
+                    <div id="tum_frb1_room" class="tabcontent">
+                        <h3>TUM-RGBD Dataset - Sequence <i>frb1_room</i></h3>
+                        <img src="./images/eval/scene_graph/tum_frb1_room.gif" />
+                    </div>
+                    <div id="as_seq05" class="tabcontent">
+                        <h3>AutoSense Dataset - <i>Seq05</i></h3>
+                        <img src="./images/eval/scene_graph/as_seq05.gif" />
+                    </div>
+                    <div id="as_seq06" class="tabcontent">
+                        <h3>AutoSense Dataset - <i>Seq06</i></h3>
+                        <img src="./images/eval/scene_graph/as_seq06.gif" />
+                    </div>
+                    <div id="as_seq07" class="tabcontent">
+                        <h3>AutoSense Dataset - <i>Seq07</i></h3>
+                        <img src="./images/eval/scene_graph/as_seq07.gif" />
+                    </div>
+                    <div id="as_seq08" class="tabcontent">
+                        <h3>AutoSense Dataset - <i>Seq08</i></h3>
+                        <img src="./images/eval/scene_graph/as_seq08.gif" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Team</h2>
+            </div>			
+        <div class="row" data-anim-type="fade-in-up">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/ali_tourani.png')">
+                        <a href="https://www.linkedin.com/in/alitourani/" target="_blank">
+                            <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
+                        </a>
+                    </div>
+                    <div class="description">
+                        <h4>Ali Tourani</h4>
+                        <br>
+                        <h5><strong>Doctoral Researcher</strong></h5>
+                        <p>SnT, University of Luxembourg, Luxembourg</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/saad_ejaz.png')">
+                        <a href="https://www.linkedin.com/in/saad-ejaz-ba35281b0/" target="_blank">
+                            <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
+                        </a>
+                    </div>
+                    <div class="description">
+                        <h4>Saad Ejaz</h4>
+                        <br>
+                        <h5><strong>Doctoral Researcher</strong></h5>
+                        <p>SnT, University of Luxembourg, Luxembourg</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/hriday_bavle.png')">
+                        <a href="https://www.linkedin.com/in/hriday-bavle-54706033/" target="_blank">
+                            <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
+                        </a>
+                    </div>
+                    <div class="description">
+                        <h4>Hriday Bavle</h4>
+                        <br>
+                        <h5><strong>Postdoc. Researcher</strong></h5>
+                        <p>SnT, University of Luxembourg, Luxembourg</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/david_morilla.png')">
+                        <a href="https://www.linkedin.com/in/david-morilla-cabello-359bb8164/" target="_blank">
+                            <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
+                        </a>
+                    </div>
+                    <div class="description">
+                        <h4>David Morilla-Cabello</h4>
+                        <h5><strong>Ph.D. Candidate</strong></h5>
+                        <p>I3A Institute, Universidad de Zaragoza, Spain</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/joseluis_sanchezlopez.png')">
+                        <a href="https://www.linkedin.com/in/joseluis-sanchezlopez/" target="_blank">
+                            <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
+                        </a>
+                    </div>
+                    <div class="description">
+                        <h4>Jose Luis Sanchez-Lopez</h4>
+                        <h5><strong>Research Scientist</strong></h5>
+                        <p>SnT, University of Luxembourg, Luxembourg</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/holger_voos.png')">
+                        <a href="https://www.linkedin.com/in/holger-voos-85864938/" target="_blank">
+                            <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
+                        </a>
+                    </div>
+                    <div class="description">
+                        <h4>Holger Voos</h4>
+                        <br>
+                        <h5><strong>Full Professor</strong></h5>
+                        <p>SnT, University of Luxembourg, Luxembourg</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="publication-area" id="publication">
+        <div class="container">
+            <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Publications</h2>
+            <p class="wow fadeInDown">You can cite <a href="https://arxiv.org/abs/2202.13307" target="_blank">our paper</a> using the reference text below:</p>
+        </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="single-publication animate_fade_in" style="opacity: 1; right: 0px;">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <blockquote>                                    
+                                    <span>@article{tourani2024vsgraphs,</span><br>
+                                    <span style="margin-left: 10px;">author =  {A. Tourani, H. Bavle, S. Ejaz, D. Morilla-Cabello, J.L. Sanchez-Lopez, and H. Voos},</span><br>
+                                    <span style="margin-left: 10px;">title = {vs-graphs: Integrating Visual SLAM and Situational Graphs using Multi-level Scene Understanding},</span><br>
+                                    <span style="margin-left: 10px;">year = {2024},</span><br>
+                                    <span style="margin-left: 10px;">url = {TBD},</span><br>
+                                    <span style="margin-left: 10px;">archivePrefix = {arXiv},</span><br>
+                                    <span style="margin-left: 10px;">primaryClass = {cs.IR},</span><br>
+                                    <span>}</span>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+    <!-- <section id="contact-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Contact Us</h2>
+            </div>
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-sm-7 col-md-7">
+                    <div class="contact-form">
+                        <address>
+                            <i class="fa fa-home fa-lg"></i>
+                            <a href="https://www.uni.lu/snt-en/research-groups/arg/" target="_blank">https://www.uni.lu/snt-en/research-groups/arg/</a>
+                        </address>
+                        <address>
+                            <i class="fa fa-github fa-lg"></i>
+                            <a href="https://github.com/snt-arg" target="_blank">https://github.com/snt-arg</a>
+                        </address>
+                        <address>
+                            <i class="fa fa-road fa-lg"></i> 29, Boulevard JF Kennedy, L-1855 LUXEMBOURG
+                        </address>
+                    </div>
+                </div>
+                <div class="col-sm-5 col-md-5">
+                    <img src="./images/contact.png" style="width: 90%;"/>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-sm-12">
+                    &copy; 2024 All rights reserved - 
+                    <a target="_blank" href="https://www.uni.lu/snt-en/research-groups/ARG/" title="Automation and Robotics Group (ARG)">
+                        Automation and Robotics Group (ARG)
+                    </a>,
+                    <a target="_blank" href="https://www.uni.lu/snt-en/" title="SnT, University of Luxembourg">
+                        SnT
+                    </a>,
+                    <a target="_blank" href="https://www.uni.lu/en/" title="SnT, University of Luxembourg">
+                        University of Luxembourg
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.uni.lu/snt-en/research-groups/arg/" target="_blank">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/snt-arg" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@arg-snt-ul" target="_blank">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/tabHandler.js"></script>
+    <script src="js/custom-scripts.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/tabs.js"></script>
+    <!-- Default opened table tab -->
+    <script>
+        document.getElementById("defaultOpenGif").click();
+        document.getElementById("defaultOpenGifTableTab").click();
+    </script>
+</body>
+</html>
