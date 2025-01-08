@@ -264,18 +264,21 @@ ul.nostyle i {
 }
 #hero-banner h2 {
   font-size: 60px;
-  margin-top: 180px;
+  margin-top: 150px;
+  color: #146e92;
   margin-bottom: 30px;
-  color: #ff0040;
-  text-shadow: 10px 0 10px #424242;
+  text-shadow:
+      -2px -2px 0 #fff,
+      2px -2px 0 #fff,
+      -2px 2px 0 #fff,
+      2px 2px 0 #fff;
 }
 #hero-banner.banner-inner h2 > span {
   color: #45aed6;
 }
-#hero-banner.banner-inner .btn {
+#hero-banner .banner-inner .btn {
   margin-top: 10px;
 }
-
 #hero-text {
   padding: 50px 0;
   border-top: 1px solid #ffffff;
