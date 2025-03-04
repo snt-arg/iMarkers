@@ -1,8 +1,10 @@
 .slider {
   position: relative;
   overflow: hidden;
-  margin: 20px auto 0 auto;
+  margin: 20px auto;
   border-radius: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .slider ul {
