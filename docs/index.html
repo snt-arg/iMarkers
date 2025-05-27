@@ -1,547 +1,758 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="iMarkers">
-    <meta name="author"
-        content="Ali Tourani; Deniz Deniz Isinsu Avsar; Hriday Bavle; Jose Luis Sanchez-Lopez; Holger Voos; Jan P.F. Lagerwall;">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="iMarkers" />
+    <meta
+      name="author"
+      content="Ali Tourani; Deniz Deniz Isinsu Avsar; Hriday Bavle; Jose Luis Sanchez-Lopez; Holger Voos; Jan P.F. Lagerwall;"
+    />
     <title>iMarkers</title>
     <!-- core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/slider.css" rel="stylesheet">
-    <link href="css/tab.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico">
-</head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/slider.css" rel="stylesheet" />
+    <link href="css/tab.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
 
-<body id="home">
+  <body id="home">
     <header id="header">
-        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="https://www.uni.lu/snt-en/research-groups/ARG/" target="_blank">
-                        <img src="images/logo.png" alt="logo" width="250px">
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Home</a></li>
-                        <li class="scroll"><a href="#why">Why iMarkers?</a></li>
-                        <li class="scroll"><a href="#media">Media</a></li>
-                        <li class="scroll"><a href="#highlight">Highlights</a></li>
-                        <li class="scroll"><a href="#team">Team</a></li>
-                        <li class="scroll"><a href="#publication">Publications</a></li>
-                        <li class="scroll"><a href="#contact-us">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav
+        id="main-nav"
+        class="navbar navbar-default navbar-fixed-top"
+        role="banner"
+      >
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a
+              class="navbar-brand"
+              href="https://www.uni.lu/snt-en/research-groups/ARG/"
+              target="_blank"
+            >
+              <img src="images/logo.png" alt="logo" width="250px" />
+            </a>
+          </div>
+          <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="scroll active"><a href="#home">Home</a></li>
+              <li class="scroll"><a href="#why">Why iMarkers?</a></li>
+              <li class="scroll"><a href="#media">Media</a></li>
+              <li class="scroll"><a href="#highlight">Highlights</a></li>
+              <li class="scroll"><a href="#team">Team</a></li>
+              <li class="scroll"><a href="#publication">Publications</a></li>
+              <li class="scroll"><a href="#contact-us">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <section id="hero-banner">
-        <div class="banner-inner">
-            <div class="container">
-                <div class="row justify-content-end">
-                    <div class="col-lg-6 col-md-3 col-sm-0"></div>
-                    <div class="col-lg-6 col-md-9 col-sm-12 text-end">
-                        <h2>iMarkers: Invisible Fiducial Markers for Robotics &amp; AR</h2>
-                        <a class="btn btn-primary btn-lg" href="https://github.com/snt-arg/iMarker_detector_standalone"
-                            target="_blank">
-                            <i class="fa fa-github fa-lg"></i> Source Code (General)
-                        </a>
-                        <a class="btn btn-primary btn-lg" href="https://github.com/snt-arg/iMarker_detector_ros"
-                            target="_blank">
-                            <i class="fa fa-github fa-lg"></i> Source Code with Robotics Interface (ROS)
-                        </a>
-                    </div>
-                </div>
+      <div class="banner-inner">
+        <div class="container">
+          <div class="row justify-content-end">
+            <div class="col-lg-6 col-md-3 col-sm-0"></div>
+            <div class="col-lg-6 col-md-9 col-sm-12 text-end">
+              <h2>
+                iMarkers: Invisible Fiducial Markers for Robotics &amp; AR
+              </h2>
+              <a
+                class="btn btn-primary btn-lg"
+                href="https://github.com/snt-arg/iMarker_detector_standalone"
+                target="_blank"
+              >
+                <i class="fa fa-github fa-lg"></i> Source Code (General)
+              </a>
+              <a
+                class="btn btn-primary btn-lg"
+                href="https://github.com/snt-arg/iMarker_detector_ros"
+                target="_blank"
+              >
+                <i class="fa fa-github fa-lg"></i> Source Code with Robotics
+                Interface (ROS)
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="download-now" id="why">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">✨ Why iMarkers?</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="features">
-                            <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
-                                <div>
-                                    <i class="fa fa-qrcode"></i>
-                                </div>
-                                <div class="media service-box">
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Invisible Landmarks for Robots</h4>
-                                        <p>iMarkers are discreet landmarks for robotics and AR applications, invisible
-                                            or barely noticeable to the naked eyes when placed in an environment.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
-                                <div>
-                                    <i class="fa fa-crosshairs"></i>
-                                </div>
-                                <div class="media service-box">
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Flexible and Versatile Production</h4>
-                                        <p>iMarkers can be produced to be detected in particular light wavelengths (UV,
-                                            IR, or visible), enabling easy customization for diverse applications.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
-                                <div>
-                                    <i class="fa fa-money"></i>
-                                </div>
-                                <div class="media service-box">
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Cost-efficient Fabrication and Detection</h4>
-                                        <p>iMarkers fabrication is rapid and cost-effective, with detection achievable
-                                            using affordable, custom-built sensors, ensuring high accessibility.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                                <div>
-                                    <i class="fa fa-trophy"></i>
-                                </div>
-                                <div class="media service-box">
-                                    <div class="media-body">
-                                        <h4 class="media-heading">Fast and Robust Recognition</h4>
-                                        <p>iMarkers can be detected and recognized using low computation cost and robust
-                                            computer vision algorithms.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">✨ Why iMarkers?</h2>
         </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="features">
+                <div
+                  class="col-md-6 wow fadeInUp"
+                  data-wow-duration="300ms"
+                  data-wow-delay="0ms"
+                >
+                  <div>
+                    <i class="fa fa-qrcode"></i>
+                  </div>
+                  <div class="media service-box">
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Invisible Landmarks for Robots
+                      </h4>
+                      <p>
+                        iMarkers are discreet landmarks for robotics and AR
+                        applications, invisible or barely noticeable to the
+                        naked eyes when placed in an environment.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 wow fadeInUp"
+                  data-wow-duration="300ms"
+                  data-wow-delay="100ms"
+                >
+                  <div>
+                    <i class="fa fa-crosshairs"></i>
+                  </div>
+                  <div class="media service-box">
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Flexible and Versatile Production
+                      </h4>
+                      <p>
+                        iMarkers can be produced to be detected in particular
+                        light wavelengths (UV, IR, or visible), enabling easy
+                        customization for diverse applications.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 wow fadeInUp"
+                  data-wow-duration="300ms"
+                  data-wow-delay="200ms"
+                >
+                  <div>
+                    <i class="fa fa-money"></i>
+                  </div>
+                  <div class="media service-box">
+                    <div class="media-body">
+                      <h4 class="media-heading">
+                        Cost-efficient Fabrication and Detection
+                      </h4>
+                      <p>
+                        iMarkers fabrication is rapid and cost-effective, with
+                        detection achievable using affordable, custom-built
+                        sensors, ensuring high accessibility.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 fadeInUp"
+                  data-wow-duration="300ms"
+                  data-wow-delay="300ms"
+                >
+                  <div>
+                    <i class="fa fa-trophy"></i>
+                  </div>
+                  <div class="media service-box">
+                    <div class="media-body">
+                      <h4 class="media-heading">Fast and Robust Recognition</h4>
+                      <p>
+                        iMarkers can be detected and recognized using low
+                        computation cost and robust computer vision algorithms.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="media">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">📸 Media</h2>
-            </div>
-            <h3>🔦 iMarker Variants</h3>
-            <p>iMarkers offer production flexibility, enabling design and detection across the entire light spectrum.
-                These variants include UV-range (entirely transparent and invisible to the naked eye),
-                IR-range (similarly discreet), and visible-range iMarkers designed to blend with patterned backgrounds
-                or camouflage against similarly colored surfaces.
-            </p>
-            <div class="row">
-                <div class="col-sm-12 wow fadeInDown">
-                    <div class="slider">
-                        <a class="control_next"><i class="fa fa-arrow-right"></i></a>
-                        <a class="control_prev"><i class="fa fa-arrow-left"></i></a>
-                        <ul>
-                            <li>
-                                <h5>A 6cm &times; 6cm IR-range iMarker, fabricated with ArUco patterns</h5>
-                                <img src="./images/markers/ir-marker-in-hand.jpg" />
-                            </li>
-                            <li>
-                                <h5>A 6cm &times; 6cm UV-range iMarker revealed after UV illumination</h5>
-                                <img src="./images/markers/uv-marker-torch.png" />
-                            </li>
-                            <li>
-                                <h5>A 6cm &times; 6cm UV-range iMarker placed on a transparent surface</h5>
-                                <img src="./images/markers/uv-marker-on-glass.png" />
-                            </li>
-                            <li>
-                                <h5>A 6cm &times; 6cm ArUco-patterned IR-range iMarker placed on a textured background
-                                </h5>
-                                <img src="./images/markers/imarekr-blue.png" />
-                            </li>
-                            <li>
-                                <h5>A 7cm &times; 7cm visible-range iMarker (in hand) and a printed 10cm &times; 10cm
-                                    ArUco markerr in the background</h5>
-                                <img src="./images/markers/marker-print-vis.png" />
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <h3>📷 iMarker Detector Sensors</h3>
-            <p>
-                Due to the versatility of iMarkers, various sensors can be designed and employed to detect and recognize
-                them.
-                So far, three primary solutions are proposed, including “<b>dual-vision</b>,” “<b>dynamic
-                    single-vision</b>,” and “<b>static single-vision</b>.”
-                You can see some implemented setups below.
-            </p>
-            <div class="row">
-                <div class="col-sm-12 wow fadeInDown">
-                    <div class="slider">
-                        <a class="control_next"><i class="fa fa-arrow-right"></i></a>
-                        <a class="control_prev"><i class="fa fa-arrow-left"></i></a>
-                        <ul>
-                            <li>
-                                <h5>Dual-vision setup, containing to cameras facing a cube beamsplitter</h5>
-                                <img src="./images/sensors/dual-cube.png" />
-                            </li>
-                            <li>
-                                <h5>Dual-vision setup, containing to cameras facing a plate beamsplitter</h5>
-                                <img src="./images/sensors/dual-plate-1.png" />
-                            </li>
-                            <li>
-                                <h5>Single-vision setup with a fixed plarizer attached to the camera's RGB lens</h5>
-                                <img src="./images/sensors/single-fixed.png" />
-                            </li>
-                            <li>
-                                <h5>Single-vision setup with a circular polarizer switching between left- and
-                                    right-handed modes, driven by a function generator</h5>
-                                <img src="./images/sensors/single-dynamic.png" />
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <p>
-                If you are interested in the details of the sensors, please check the <a
-                    href="https://github.com/snt-arg/iMarker_sensors" target="_blank">github repository
-                    of iMarker detector sensor interfaces <i class="fa fa-link fa-lg"></i></a>.
-            </p>
-            <br />
-            <h3>💻 iMarkers Detector Algorithms</h3>
-            <p>
-                Regarding various sensors and iMarker types, different algorithms are proposed to detect and recognize
-                iMarkers.
-                These algorithms are designed to be fast, robust, and computationally efficient, ensuring real-time
-                performance.
-                Below, you can see some of the implemented algorithms for different iMarker types and sensor setups.
-            </p>
-            <div class="row">
-                <div class="col-sm-12 wow fadeInDown">
-                    <div class="slider">
-                        <a class="control_next"><i class="fa fa-arrow-right"></i></a>
-                        <a class="control_prev"><i class="fa fa-arrow-left"></i></a>
-                        <ul>
-                            <li>
-                                <h5>Detecting a visible-range iMarker using the static single-vision sensor</h5>
-                                <img src="./images/algorithm/marker-detected-1.png" />
-                            </li>
-                            <li>
-                                <h5>Detecting a visible-range iMarker using the dual-vision setup</h5>
-                                <img src="./images/algorithm/marker-detected-2.png" />
-                            </li>
-                            <li>
-                                <h5>Detecting a visible-range iMarker using dynamic single-vision setup</h5>
-                                <img src="./images/algorithm/marker-detected-4.png" />
-                            </li>
-                            <li>
-                                <h5>Detecting a UV-range iMarker using the single-vision setup (UV flashlight used)</h5>
-                                <img src="./images/algorithm/marker-detected-3.png" />
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <p>
-                If you are interested in the details of the developed algorithms, please check the <a
-                    href="https://github.com/snt-arg/iMarker_algorithms" target="_blank">github repository
-                    of iMarker detector algorithms <i class="fa fa-link fa-lg"></i></a>.
-            </p>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">📸 Media</h2>
         </div>
+        <h3>🔦 iMarker Variants</h3>
+        <p>
+          iMarkers offer production flexibility, enabling design and detection
+          across the entire light spectrum. These variants include UV-range
+          (entirely transparent and invisible to the naked eye), IR-range
+          (similarly discreet), and visible-range iMarkers designed to blend
+          with patterned backgrounds or camouflage against similarly colored
+          surfaces.
+        </p>
+        <div class="row">
+          <div class="col-sm-12 wow fadeInDown">
+            <div class="slider">
+              <a class="control_next"><i class="fa fa-arrow-right"></i></a>
+              <a class="control_prev"><i class="fa fa-arrow-left"></i></a>
+              <ul>
+                <li>
+                  <h5>
+                    A 6cm &times; 6cm IR-range iMarker, fabricated with ArUco
+                    patterns
+                  </h5>
+                  <img src="./images/markers/ir-marker-in-hand.jpg" />
+                </li>
+                <li>
+                  <h5>
+                    A 6cm &times; 6cm UV-range iMarker revealed after UV
+                    illumination
+                  </h5>
+                  <img src="./images/markers/uv-marker-torch.png" />
+                </li>
+                <li>
+                  <h5>
+                    A 6cm &times; 6cm UV-range iMarker placed on a transparent
+                    surface
+                  </h5>
+                  <img src="./images/markers/uv-marker-on-glass.png" />
+                </li>
+                <li>
+                  <h5>
+                    A 6cm &times; 6cm ArUco-patterned IR-range iMarker placed on
+                    a textured background
+                  </h5>
+                  <img src="./images/markers/imarekr-blue.png" />
+                </li>
+                <li>
+                  <h5>
+                    A 7cm &times; 7cm visible-range iMarker (in hand) and a
+                    printed 10cm &times; 10cm ArUco markerr in the background
+                  </h5>
+                  <img src="./images/markers/marker-print-vis.png" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+        <h3>📷 iMarker Detector Sensors</h3>
+        <p>
+          Due to the versatility of iMarkers, various sensors can be designed
+          and employed to detect and recognize them. So far, three primary
+          solutions are proposed, including “<b>dual-vision</b>,” “<b
+            >dynamic single-vision</b
+          >,” and “<b>static single-vision</b>.” You can see some implemented
+          setups below.
+        </p>
+        <div class="row">
+          <div class="col-sm-12 wow fadeInDown">
+            <div class="slider">
+              <a class="control_next"><i class="fa fa-arrow-right"></i></a>
+              <a class="control_prev"><i class="fa fa-arrow-left"></i></a>
+              <ul>
+                <li>
+                  <h5>
+                    Dual-vision setup, containing to cameras facing a cube
+                    beamsplitter
+                  </h5>
+                  <img src="./images/sensors/dual-cube.png" />
+                </li>
+                <li>
+                  <h5>
+                    Dual-vision setup, containing to cameras facing a plate
+                    beamsplitter
+                  </h5>
+                  <img src="./images/sensors/dual-plate-1.png" />
+                </li>
+                <li>
+                  <h5>
+                    Single-vision setup with a fixed plarizer attached to the
+                    camera's RGB lens
+                  </h5>
+                  <img src="./images/sensors/single-fixed.png" />
+                </li>
+                <li>
+                  <h5>
+                    Single-vision setup with a circular polarizer switching
+                    between left- and right-handed modes, driven by a function
+                    generator
+                  </h5>
+                  <img src="./images/sensors/single-dynamic.png" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p>
+          If you are interested in the details of the sensors, please check the
+          <a href="https://github.com/snt-arg/iMarker_sensors" target="_blank"
+            >github repository of iMarker detector sensor interfaces
+            <i class="fa fa-link fa-lg"></i></a
+          >.
+        </p>
+        <br />
+        <h3>💻 iMarkers Detector Algorithms</h3>
+        <p>
+          Regarding various sensors and iMarker types, different algorithms are
+          proposed to detect and recognize iMarkers. These algorithms are
+          designed to be fast, robust, and computationally efficient, ensuring
+          real-time performance. Below, you can see some of the implemented
+          algorithms for different iMarker types and sensor setups.
+        </p>
+        <div class="row">
+          <div class="col-sm-12 wow fadeInDown">
+            <div class="slider">
+              <a class="control_next"><i class="fa fa-arrow-right"></i></a>
+              <a class="control_prev"><i class="fa fa-arrow-left"></i></a>
+              <ul>
+                <li>
+                  <h5>
+                    Detecting a visible-range iMarker using the static
+                    single-vision sensor
+                  </h5>
+                  <img src="./images/algorithm/marker-detected-1.png" />
+                </li>
+                <li>
+                  <h5>
+                    Detecting a visible-range iMarker using the dual-vision
+                    setup
+                  </h5>
+                  <img src="./images/algorithm/marker-detected-2.png" />
+                </li>
+                <li>
+                  <h5>
+                    Detecting a visible-range iMarker using dynamic
+                    single-vision setup
+                  </h5>
+                  <img src="./images/algorithm/marker-detected-4.png" />
+                </li>
+                <li>
+                  <h5>
+                    Detecting a UV-range iMarker using the single-vision setup
+                    (UV flashlight used)
+                  </h5>
+                  <img src="./images/algorithm/marker-detected-3.png" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p>
+          If you are interested in the details of the developed algorithms,
+          please check the
+          <a
+            href="https://github.com/snt-arg/iMarker_algorithms"
+            target="_blank"
+            >github repository of iMarker detector algorithms
+            <i class="fa fa-link fa-lg"></i></a
+          >.
+        </p>
+      </div>
     </section>
 
-    <section class="download-now" id="highlight" style="padding-bottom: 50px;">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Highlights</h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 wow fadeInUp">
-                    <div class="row image-links-container">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <a href="https://techxplore.com/news/2022-10-team-unclonable-invisible-machine-vision.html"
-                                target="_blank" rel="noopener noreferrer">
-                                <img src="images/news/invisible_marker.jpg" alt="Thumbnail" />
-                                <h5>[TechXplore] Research team proposes unclonable, invisible machine vision markers
-                                </h5>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <a href="https://snt-highlights.uni.lu/2024/04/03/invisible-markers-make-their-way/"
-                                target="_blank" rel="noopener noreferrer">
-                                <img src="images/news/team_transcend.jpg" alt="Thumbnail" />
-                                <h5>[SnT Highlights] Invisible Markers Make Their Way in the World</h5>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <a href="https://www.uni.lu/research-en/news/transcend-research-team-proposes-unclonable-invisible-machine-vision-markers-using-cholesteric-spherical-reflectors/"
-                                target="_blank" rel="noopener noreferrer">
-                                <img src="images/news/project_transcend.jpg" alt="Thumbnail" />
-                                <h5>[UniLu Research News] Project TRANSCEND</h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="download-now" id="highlight" style="padding-bottom: 50px">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Highlights</h2>
         </div>
+        <div class="row">
+          <div class="col-sm-12 wow fadeInUp">
+            <div class="row image-links-container">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a
+                  href="https://techxplore.com/news/2022-10-team-unclonable-invisible-machine-vision.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="images/news/invisible_marker.jpg" alt="Thumbnail" />
+                  <h5>
+                    [TechXplore] Research team proposes unclonable, invisible
+                    machine vision markers
+                  </h5>
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a
+                  href="https://snt-highlights.uni.lu/2024/04/03/invisible-markers-make-their-way/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="images/news/team_transcend.jpg" alt="Thumbnail" />
+                  <h5>
+                    [SnT Highlights] Invisible Markers Make Their Way in the
+                    World
+                  </h5>
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <a
+                  href="https://www.uni.lu/research-en/news/transcend-research-team-proposes-unclonable-invisible-machine-vision-markers-using-cholesteric-spherical-reflectors/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="images/news/project_transcend.jpg"
+                    alt="Thumbnail"
+                  />
+                  <h5>[UniLu Research News] Project TRANSCEND</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="team">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Team</h2>
-            </div>
-            <div class="row" data-anim-type="fade-in-up">
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="team-wrapper">
-                        <div class="team-inner" style="background-image: url('images/team/ali_tourani.png')">
-                            <a href="https://www.linkedin.com/in/alitourani/" target="_blank">
-                                <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
-                            </a>
-                        </div>
-                        <div class="description">
-                            <h4>Ali TOURANI</h4>
-                            <br>
-                            <h5><strong>Doctoral Researcher</strong></h5>
-                            <p>SnT, University of Luxembourg, Luxembourg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="team-wrapper">
-                        <div class="team-inner" style="background-image: url('images/team/deniz_avsar.png')">
-                            <a href="https://www.linkedin.com/in/deniz-isinsu-avsar/" target="_blank">
-                                <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
-                            </a>
-                        </div>
-                        <div class="description">
-                            <h4>Deniz AVSAR</h4>
-                            <br>
-                            <h5><strong>Doctoral Researcher</strong></h5>
-                            <p>FSTM, University of Luxembourg, Luxembourg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="team-wrapper">
-                        <div class="team-inner" style="background-image: url('images/team/hriday_bavle.png')">
-                            <a href="https://www.linkedin.com/in/hriday-bavle-54706033/" target="_blank">
-                                <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
-                            </a>
-                        </div>
-                        <div class="description">
-                            <h4>Hriday BAVLE</h4>
-                            <br>
-                            <h5><strong>Postdoc. Researcher</strong></h5>
-                            <p>SnT, University of Luxembourg, Luxembourg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="team-wrapper">
-                        <div class="team-inner" style="background-image: url('images/team/joseluis_sanchezlopez.png')">
-                            <a href="https://www.linkedin.com/in/joseluis-sanchezlopez/" target="_blank">
-                                <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
-                            </a>
-                        </div>
-                        <div class="description">
-                            <h4>Jose Luis SANCHEZ-LOPEZ</h4>
-                            <h5><strong>Research Scientist</strong></h5>
-                            <p>SnT, University of Luxembourg, Luxembourg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="team-wrapper">
-                        <div class="team-inner" style="background-image: url('images/team/jan_lagerwall.png')">
-                            <a href="https://www.linkedin.com/in/jan-lagerwall-157028a/" target="_blank">
-                                <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
-                            </a>
-                        </div>
-                        <div class="description">
-                            <h4>Jan LAGERWALL</h4>
-                            <br>
-                            <h5><strong>Full Professor</strong></h5>
-                            <p>FSTM, University of Luxembourg, Luxembourg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="team-wrapper">
-                        <div class="team-inner" style="background-image: url('images/team/holger_voos.png')">
-                            <a href="https://www.linkedin.com/in/holger-voos-85864938/" target="_blank">
-                                <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
-                            </a>
-                        </div>
-                        <div class="description">
-                            <h4>Holger VOOS</h4>
-                            <br>
-                            <h5><strong>Full Professor</strong></h5>
-                            <p>SnT, University of Luxembourg, Luxembourg</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- External -->
-             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">External Partners</h2>
-            </div>
-            <div class="row" data-anim-type="fade-in-up">
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="team-wrapper">
-                        <div class="team-inner" style="background-image: url('images/team/mathew_schwartz.png')">
-                            <a href="https://www.linkedin.com/in/mathew-schwartz-77514117/" target="_blank">
-                                <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
-                            </a>
-                        </div>
-                        <div class="description">
-                            <h4>Mathew SCHWARTZ</h4>
-                            <h5><strong>Assoc. Professor</strong></h5>
-                            <p>New Jersey Institute of Technology, New Jersey, USA</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                    <div class="team-wrapper">
-                        <div class="team-inner" style="background-image: url('images/team/danqing_liu.png')">
-                            <a href="https://www.linkedin.com/in/joseluis-sanchezlopez/" target="_blank">
-                                <i class="fa fa-linkedin" style="margin-top: 5px;"></i>
-                            </a>
-                        </div>
-                        <div class="description">
-                            <h4>Danqing LIU</h4>
-                            <h5><strong>Associate Professor</strong></h5>
-                            <p>Eindhoven University of Technology, Netherlands</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Team</h2>
         </div>
+        <div class="row" data-anim-type="fade-in-up">
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <div class="team-wrapper">
+              <div
+                class="team-inner"
+                style="background-image: url('images/team/ali_tourani.png')"
+              >
+                <a
+                  href="https://www.linkedin.com/in/alitourani/"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin" style="margin-top: 5px"></i>
+                </a>
+              </div>
+              <div class="description">
+                <h4>Ali TOURANI</h4>
+                <br />
+                <h5><strong>Doctoral Researcher</strong></h5>
+                <p>SnT, University of Luxembourg, Luxembourg</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <div class="team-wrapper">
+              <div
+                class="team-inner"
+                style="background-image: url('images/team/deniz_avsar.png')"
+              >
+                <a
+                  href="https://www.linkedin.com/in/deniz-isinsu-avsar/"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin" style="margin-top: 5px"></i>
+                </a>
+              </div>
+              <div class="description">
+                <h4>Deniz AVSAR</h4>
+                <br />
+                <h5><strong>Doctoral Researcher</strong></h5>
+                <p>FSTM, University of Luxembourg, Luxembourg</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <div class="team-wrapper">
+              <div
+                class="team-inner"
+                style="background-image: url('images/team/hriday_bavle.png')"
+              >
+                <a
+                  href="https://www.linkedin.com/in/hriday-bavle-54706033/"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin" style="margin-top: 5px"></i>
+                </a>
+              </div>
+              <div class="description">
+                <h4>Hriday BAVLE</h4>
+                <br />
+                <h5><strong>Postdoc. Researcher</strong></h5>
+                <p>SnT, University of Luxembourg, Luxembourg</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <div class="team-wrapper">
+              <div
+                class="team-inner"
+                style="
+                  background-image: url('images/team/joseluis_sanchezlopez.png');
+                "
+              >
+                <a
+                  href="https://www.linkedin.com/in/joseluis-sanchezlopez/"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin" style="margin-top: 5px"></i>
+                </a>
+              </div>
+              <div class="description">
+                <h4>Jose Luis SANCHEZ-LOPEZ</h4>
+                <h5><strong>Research Scientist</strong></h5>
+                <p>SnT, University of Luxembourg, Luxembourg</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <div class="team-wrapper">
+              <div
+                class="team-inner"
+                style="background-image: url('images/team/jan_lagerwall.png')"
+              >
+                <a
+                  href="https://www.linkedin.com/in/jan-lagerwall-157028a/"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin" style="margin-top: 5px"></i>
+                </a>
+              </div>
+              <div class="description">
+                <h4>Jan LAGERWALL</h4>
+                <br />
+                <h5><strong>Full Professor</strong></h5>
+                <p>FSTM, University of Luxembourg, Luxembourg</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <div class="team-wrapper">
+              <div
+                class="team-inner"
+                style="background-image: url('images/team/holger_voos.png')"
+              >
+                <a
+                  href="https://www.linkedin.com/in/holger-voos-85864938/"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin" style="margin-top: 5px"></i>
+                </a>
+              </div>
+              <div class="description">
+                <h4>Holger VOOS</h4>
+                <br />
+                <h5><strong>Full Professor</strong></h5>
+                <p>SnT, University of Luxembourg, Luxembourg</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- External -->
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">External Partners</h2>
+        </div>
+        <div class="row" data-anim-type="fade-in-up">
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <div class="team-wrapper">
+              <div
+                class="team-inner"
+                style="background-image: url('images/team/mathew_schwartz.png')"
+              >
+                <a
+                  href="https://www.linkedin.com/in/mathew-schwartz-77514117/"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin" style="margin-top: 5px"></i>
+                </a>
+              </div>
+              <div class="description">
+                <h4>Mathew SCHWARTZ</h4>
+                <h5><strong>Assoc. Professor</strong></h5>
+                <p>New Jersey Institute of Technology, New Jersey, USA</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+            <div class="team-wrapper">
+              <div
+                class="team-inner"
+                style="background-image: url('images/team/danqing_liu.png')"
+              >
+                <a
+                  href="https://www.linkedin.com/in/joseluis-sanchezlopez/"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin" style="margin-top: 5px"></i>
+                </a>
+              </div>
+              <div class="description">
+                <h4>Danqing LIU</h4>
+                <h5><strong>Associate Professor</strong></h5>
+                <p>Eindhoven University of Technology, Netherlands</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="publication-area" id="publication">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Publications</h2>
-                <p class="wow fadeInDown">You can find below the list of publications employing iMarkers:</p>
-            </div>
-            <div class="row" style="font-size: 15px; text-align: justify;">
-                <div class="col-xs-11 col-sm-12 col-md-6 col-lg-6">
-                    <ul>
-                        <li>
-                            A. Tourani, D.I. Avşar, H. Bavle, J.L. Sanchez-Lopez, J. PF Lagerwall, and H. Voos.
-                            <em>"Unveiling the Potential of iMarkers: Invisible Fiducial Markers for Advanced
-                                Robotics."</em>
-                            <strong>IEEE Robotics & Automation Magazine</strong>, (under review).
-                            <a href="https://doi.org/10.48550/arXiv.2501.15505" target="_blank">DOI:
-                                10.48550/arXiv.2501.15505</a>
-                        </li>
-                        <li>
-                            A. Tourani, H. Bavle, D.I. Avşar, J.L. Sanchez-Lopez, R. Munoz-Salinas, and H. Voos.
-                            <em>"Vision-Based Situational Graphs Exploiting Fiducial Markers for the Integration of
-                                Semantic
-                                Entities."</em>
-                            <strong>Robotics</strong>, vol. 13, no. 7 (2024): p. 106.
-                            <a href="https://doi.org/10.3390/robotics13070106" target="_blank">DOI:
-                                10.3390/robotics13070106</a>
-                        </li>
-                        <li>
-                            H. Agha, Y. Geng, X. Ma, D.I. Avşar, R. Kizhakidathazhath, Y. Zhang, A. Tourani,
-                            H. Bavle, J.L. Sanchez-Lopez, H. Voos, M. Schwartz, and J. PF Lagerwall
-                            <em>"Unclonable Human-Invisible Machine Vision Markers Leveraging the Omnidirectional Chiral
-                                Bragg
-                                Diffraction of Cholesteric Spherical Reflectors."</em>
-                            <strong>Light: Science & Applications</strong>, vol. 11, no. 1 (2022): p. 309.
-                            <a href="https://doi.org/10.1038/s41377-022-01002-4" target="_blank">DOI:
-                                10.1038/s41377-022-01002-4</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align: center;">
-                    <img src="./images/overal.png" width="80%" />
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Publications</h2>
+          <p class="wow fadeInDown">
+            You can find below the list of publications employing iMarkers:
+          </p>
         </div>
+        <div class="row" style="font-size: 15px; text-align: justify">
+          <div class="col-xs-11 col-sm-12 col-md-6 col-lg-6">
+            <ul>
+              <li>
+                A. Tourani, D.I. Avşar, H. Bavle, J.L. Sanchez-Lopez, J. PF
+                Lagerwall, and H. Voos.
+                <em
+                  >"Unveiling the Potential of iMarkers: Invisible Fiducial
+                  Markers for Advanced Robotics."</em
+                >
+                <strong>IEEE Robotics & Automation Magazine</strong>, (under
+                review).
+                <a
+                  href="https://doi.org/10.48550/arXiv.2501.15505"
+                  target="_blank"
+                  >DOI: 10.48550/arXiv.2501.15505</a
+                >
+              </li>
+              <li>
+                A. Tourani, H. Bavle, D.I. Avşar, J.L. Sanchez-Lopez, R.
+                Munoz-Salinas, and H. Voos.
+                <em
+                  >"Vision-Based Situational Graphs Exploiting Fiducial Markers
+                  for the Integration of Semantic Entities."</em
+                >
+                <strong>Robotics</strong>, vol. 13, no. 7 (2024): p. 106.
+                <a
+                  href="https://doi.org/10.3390/robotics13070106"
+                  target="_blank"
+                  >DOI: 10.3390/robotics13070106</a
+                >
+              </li>
+              <li>
+                H. Agha, Y. Geng, X. Ma, D.I. Avşar, R. Kizhakidathazhath, Y.
+                Zhang, A. Tourani, H. Bavle, J.L. Sanchez-Lopez, H. Voos, M.
+                Schwartz, and J. PF Lagerwall
+                <em
+                  >"Unclonable Human-Invisible Machine Vision Markers Leveraging
+                  the Omnidirectional Chiral Bragg Diffraction of Cholesteric
+                  Spherical Reflectors."</em
+                >
+                <strong>Light: Science & Applications</strong>, vol. 11, no. 1
+                (2022): p. 309.
+                <a
+                  href="https://doi.org/10.1038/s41377-022-01002-4"
+                  target="_blank"
+                  >DOI: 10.1038/s41377-022-01002-4</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-xs-12 col-sm-12 col-md-6 col-lg-6"
+            style="text-align: center"
+          >
+            <img src="./images/overal.png" width="80%" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact-us">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Contact Us</h2>
-            </div>
-            <div class="row" style="margin-bottom: 20px;">
-                <div class="col-sm-7 col-md-7">
-                    <div class="contact-form">
-                        <address>
-                            <i class="fa fa-home fa-lg"></i>
-                            <a href="https://www.uni.lu/snt-en/research-groups/arg/" target="_blank">SnT Automation and
-                                Robotics (ARG) Web-page</a>
-                        </address>
-                        <address>
-                            <i class="fa fa-home fa-lg"></i>
-                            <a href="https://www.lcsoftmatter.com/" target="_blank">Experimental Soft Matter Physics
-                                (ESMP) Web-page</a>
-                        </address>
-                        <address>
-                            <i class="fa fa-github fa-lg"></i>
-                            <a href="https://github.com/snt-arg" target="_blank">https://github.com/snt-arg</a>
-                        </address>
-                        <address>
-                            <i class="fa fa-road fa-lg"></i> 29, Boulevard JF Kennedy, L-1855 LUXEMBOURG
-                        </address>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Contact Us</h2>
         </div>
+        <div class="row" style="margin-bottom: 20px">
+          <div class="col-sm-7 col-md-7">
+            <div class="contact-form">
+              <address>
+                <i class="fa fa-home fa-lg"></i>
+                <a
+                  href="https://www.uni.lu/snt-en/research-groups/arg/"
+                  target="_blank"
+                  >SnT Automation and Robotics (ARG) Web-page</a
+                >
+              </address>
+              <address>
+                <i class="fa fa-home fa-lg"></i>
+                <a href="https://www.lcsoftmatter.com/" target="_blank"
+                  >Experimental Soft Matter Physics (ESMP) Web-page</a
+                >
+              </address>
+              <address>
+                <i class="fa fa-github fa-lg"></i>
+                <a href="https://github.com/snt-arg" target="_blank"
+                  >https://github.com/snt-arg</a
+                >
+              </address>
+              <address>
+                <i class="fa fa-road fa-lg"></i> 29, Boulevard JF Kennedy,
+                L-1855 LUXEMBOURG
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 col-sm-12">
-                    &copy; 2024 All rights reserved -
-                    <a target="_blank" href="https://www.uni.lu/en/" title="SnT, University of Luxembourg">
-                        University of Luxembourg
-                    </a>
-                </div>
-                <div class="col-lg-3 col-sm-12">
-                    <ul class="social-icons">
-                        <li>
-                            <a href="https://www.uni.lu/snt-en/research-groups/arg/" target="_blank">
-                                <i class="fa fa-home"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.uni.lu/fstm-en/research-groups/experimental-soft-matter-physics/"
-                                target="_blank">
-                                <i class="fa fa-building"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/snt-arg" target="_blank">
-                                <i class="fa fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/@arg-snt-ul" target="_blank">
-                                <i class="fa fa-youtube-play"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-sm-12">
+            &copy; 2024 All rights reserved -
+            <a
+              target="_blank"
+              href="https://www.uni.lu/en/"
+              title="SnT, University of Luxembourg"
+            >
+              University of Luxembourg
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <ul class="social-icons">
+              <li>
+                <a
+                  href="https://www.uni.lu/snt-en/research-groups/arg/"
+                  target="_blank"
+                >
+                  <i class="fa fa-home"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.uni.lu/fstm-en/research-groups/experimental-soft-matter-physics/"
+                  target="_blank"
+                >
+                  <i class="fa fa-building"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/snt-arg" target="_blank">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@arg-snt-ul" target="_blank">
+                  <i class="fa fa-youtube-play"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="js/jquery.js"></script>
@@ -557,9 +768,8 @@
     <script src="js/tabs.js"></script>
     <!-- Default opened table tab -->
     <script>
-        document.getElementById("defaultOpenGif").click();
-        document.getElementById("defaultOpenGifTableTab").click();
+      document.getElementById("defaultOpenGif").click();
+      document.getElementById("defaultOpenGifTableTab").click();
     </script>
-</body>
-
+  </body>
 </html>
